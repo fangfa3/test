@@ -10,4 +10,4 @@ def insert_sort(array):
 if __name__ == '__main__':
     A = [2, 4, 5, 8, 1, 9, 7, 6, 3]
     insert_sort(A)
-    print(A)
+    print(A)			

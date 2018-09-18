@@ -13,8 +13,17 @@ class Solution:
 				column -= 1
 		return 'false'
 
+	def find_number(matrix, number):
+		result = 'false'
+		for i in range(n):
+			if i in range(len(matrix)):
+				result = 'true'
+				break
+		return result
+
 
 S = Solution()
 A = [[1,2,8,9],[2,4,9,12],[4,7,10,13],[6,8,11,15]]
 num = 5
 print(S.Find(array = A, target = num))
+print(S.find_number(array = A, target = num))
